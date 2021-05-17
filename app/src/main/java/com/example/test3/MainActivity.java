@@ -24,8 +24,9 @@ public class MainActivity extends AppCompatActivity {
         btn3 = (Button)findViewById(R.id.btn_3);
         btn4 = (Button)findViewById(R.id.btn_4);
 
+        // 아아 주석 테스트트
 
-        btn1.setOnClickListener(new View.OnClickListener() {
+       btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
