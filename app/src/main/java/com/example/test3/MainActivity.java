@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         btn3 = (Button)findViewById(R.id.btn_3);
         btn4 = (Button)findViewById(R.id.btn_4);
 
-        // 주섹 테스트
+        
 
        btn1.setOnClickListener(new View.OnClickListener() {
             @Override
